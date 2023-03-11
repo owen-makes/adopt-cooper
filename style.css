@@ -14,6 +14,8 @@ html{
     margin: 0px;
 }
 
+/* Header */
+
 li{
     list-style: none;
 }
@@ -31,7 +33,7 @@ li{
     flex-wrap: nowrap;
 }
 
-img{
+.logo{
     height: 80px;
     width: auto;
     display: block;
@@ -49,18 +51,80 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 13px 20px;
-    height: 30px;
+    padding: 5px 20px;
+    height: 80px;
     flex-wrap: wrap;
     background-color: #faebd7;
     row-gap: 8px;
+    border-bottom-style: solid ;
+    border-bottom-width: 1px;
+    border-bottom-color: #f2f2f2;
 }
+
 body {
     margin:0;
     padding:0;
   }
 
-  footer{
+
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: #358600;
+}
+
+a:hover{
+    color: #60993E;
+}
+
+/*content*/
+.content-wrap{
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-wrap > img{
+    height: 500px;
+    width: auto;
+    margin-right: 8px;
+    margin-left: auto;
+}
+
+.text-wrap{
+    align-items: flex-start;
+    justify-content: left;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hola{
+    font-size: 100px;
+    color: #358600;
+    font-weight: bold;
+}
+
+.text-wrap > h4 {
+    font-size: 30px;
+    align-self: flex-start;
+}
+
+
+
+
+
+
+/*footer*/
+.footer-wrapper > a {
+    font-size: 12px;
+    margin: 0px;
+}
+
+footer{
     background-color: #f2f2f240;    
     margin-bottom: 0px;
     padding: 0px;
@@ -82,21 +146,6 @@ body {
     gap: 5px;
     margin-top: auto;
     padding: 8px;
-}
-
-a{
-    text-decoration: none;
-    display: inline;
-    color: #358600;
-}
-
-a:hover{
-    color: #60993E;
-}
-
-.footer-wrapper > a {
-    font-size: 12px;
-    margin: 0px;
 }
 
 #firma{
